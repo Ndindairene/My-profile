@@ -32,8 +32,8 @@ nav ul li {
     padding: 20px 30px;
 }
 nav ul li a{
-    color: red;
-    font-size: medium;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
 }
 .content{
@@ -42,18 +42,7 @@ nav ul li a{
     left:10%;
     transform: translate(-30%)
 }
-h1{
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: unset;
-}
-h4{
-    color: beige;
-    letter-spacing: 2px;
-    font-size: 25px;
-}
+
 .about img{
     height: auto;
     width: 430px;
