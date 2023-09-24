@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+body{
+        background: black;
+    }
+.irene {
+    height: 20vh;
+    width: 100%
+
+}
+nav ul li {
+    list-style-type:none;
+    display: inline-flex;
+    padding: 20px 30px;
+}
+nav ul li a{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+.content{
+    position: absolute;
+    top:20%;
+    left:10%;
+    transform: translate(-30%)
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: unset;
+}
+h4{
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.about img{
+    height: auto;
+    width: 430px;
+
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: pink;
+}
+.about-text{
+    width: 500px;
+}
+.main{
+    width: 1300px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.about-text h2{
+    font-size: 70px;
+    color: black;
+}
+.about-text h3 {
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
